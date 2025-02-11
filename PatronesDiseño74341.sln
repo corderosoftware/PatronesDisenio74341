@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{0BC0A099-6956-418C-B65C-E7B7E7DEADB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{884F2A91-5223-4ACB-B457-EBF2A2455F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{3838EAE8-8A42-442D-B3BA-142CA38D6842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC0A099-6956-418C-B65C-E7B7E7DEADB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC0A099-6956-418C-B65C-E7B7E7DEADB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC0A099-6956-418C-B65C-E7B7E7DEADB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC0A099-6956-418C-B65C-E7B7E7DEADB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884F2A91-5223-4ACB-B457-EBF2A2455F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F2A91-5223-4ACB-B457-EBF2A2455F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F2A91-5223-4ACB-B457-EBF2A2455F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F2A91-5223-4ACB-B457-EBF2A2455F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3838EAE8-8A42-442D-B3BA-142CA38D6842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3838EAE8-8A42-442D-B3BA-142CA38D6842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3838EAE8-8A42-442D-B3BA-142CA38D6842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3838EAE8-8A42-442D-B3BA-142CA38D6842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
