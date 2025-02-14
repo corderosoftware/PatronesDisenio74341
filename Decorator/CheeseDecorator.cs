@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Decorator
 {
-    internal class CheeseDecorator : BurgerDecorator
+    public class CheeseDecorator : BurgerDecorator
     {
-        public CheeseDecorator(IBurger burger) : base(burger)
-        {
-        }
+        public CheeseDecorator(IBurger burger) : base(burger) {}
 
         public override string GetDescription()
         {
-            return base.GetDescription();
+            return  _burger.GetDescription() + " Chedar";
         }
         public override double GetCost()
         {
-            return base.GetCost();
+            return _burger.GetCost() + 2500;
         }
+
+        //Más funcionalidad
 
     }
 }

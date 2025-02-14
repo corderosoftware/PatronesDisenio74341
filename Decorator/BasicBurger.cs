@@ -10,13 +10,11 @@ namespace Decorator
     {
         public double GetCost()
         {
-            //throw new NotImplementedException();
             return 10000;
         }
 
         public string GetDescription()
         {
-            //throw new NotImplementedException();
             return "Basic burger";
         }
     }
