@@ -14,6 +14,6 @@ public abstract class AprobadorHandler
         _sucesor = sucesor;
     }
 
-    public abstract string ProcesarSolicitud(Compra compra);
+    public abstract void ProcesarSolicitud(Compra compra);
 
 }
